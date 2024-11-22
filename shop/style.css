@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&display=swap');
+@font-face {
+    font-family: "GeistMono";
+    src: url(font/GeistMono-Regular.ttf);
+}
+@font-face {
+    font-family: "NimbusMonoBold";
+    src: url(font/Nimbus_Mono_Bold.otf);
+}
+@font-face {
+    font-family: "uafMemory";
+    src: url(font/UAFMemory-NarrowBoldSmallCaps.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {    
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header #main {
+    width: 30%;
+    justify-content: space-between;
+    font-family: "GeistMono"
+}
+
+header #reg {
+    width: 30%;
+    justify-content: space-between;
+}
+
+#reg li {
+    display: flex;
+    align-items: center;
+    transform: translateX(100%);
+}
+
+#search {
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #F3FBF8;
+}
+
+#registr {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #09A66D;
+}
+
+
+#veg {
+    height: 120vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3FBF8;
+    background-image: url(images/leaves.png);
+    background-size: 612px 408px;
+    background-position: top -67px left ;
+    background-repeat: no-repeat;
+}
+
+#veg h1 {
+    font-size: 70px;
+    font-family: "NimbusMonoBold";
+}
+
+#veg p {
+    font-size: 18px;
+    max-width: 630px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#reviews {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/vegetables.png");
+    background-repeat: no-repeat;
+    background-size: auto 420px;
+    background-position: bottom -38px left;
+}
+
+#reviews #ordernow {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 0.3% 1%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 15px #09a66c19;
+    background-color: #09a66c08;
+}
+
+#reviews ul {
+    list-style: none;
+    margin-right: 100px;
+    align-self: flex-end;
+    transform: translateY(-15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#reviews li {
+    padding: 17px 33px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+}
+
+#reviews li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+#reviews p {
+    font-size: 1vw;
+}
+
+#reviews .num {
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+#weBest {
+    height: 80vh;
+    padding: 140px 100px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/back-best.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+#weBest h1 {
+    font-size: 3vw;
+    font-family: "uafMemory";
+    margin-bottom: 20px;
+}
+
+#weBest p {
+    width: 50vw;
+    font-family: "GeistMono";
+}
+
+#weBest ul {
+    list-style: none;
+}
+
+#weBest li {
+    height: 80px;
+    padding: 40px 60px 0 40px;
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+}
+
+#weBest li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#weBest li p {
+    font-size: .8vw;
+    max-width: 300px;
+}
+
+#weBest h4 {
+    margin-bottom: 8px;
+}
+
+#itms {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    padding: 120px 130px 300px 750px;
+    background-color: #09a66c1e;
+    background-image: url("images/spcitms.png");
+    background-repeat: no-repeat;
+    background-position: top 100px left 100px;
+}
+
+#itms h1 {
+    font-size: 3.7vw;
+    margin-bottom: 20px;
+    font-family: "uafMemory";
+
+}
+
+#itms #p {
+    font-family: "GeistMono";
+    margin-bottom: 50px;
+}
+
+#itms #leaves {
+    position: absolute;
+    transform: translate( 90px, 300px);
+}
+
+#itms #ordernow {
+    width: 40%;
+    padding: 1% 2%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px 15px #09a66c19;
+    background-color: #09a66c08;
+}
+
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 200px 100px 570px;
+    backdrop-filter: ;
+    background-image: url("images/phone.png");
+    background-repeat: no-repeat;
+    background-size: auto 420px;
+    background-position: top 100px left 150px;
+}
+
+#app button {
+    border: none;
+    color: #333;
+    margin-bottom: 16px;
+    padding: 1% 2%;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #F3FBF8;
+}
+
+#app h1 {
+    font-size: 55px;    
+    padding-bottom: 20px;
+    font-family: "uafMemory";
+}
+
+#app p {
+    width: 80%;
+    color: #555;
+    margin-bottom: 70px;
+    font-family: "GeistMono";
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    height: 400px;
+    padding: 65px 100px;
+    background-color: #FCFEFD;
+}
+
+footer #company {
+    width: 30%;
+    font-family: "GeistMono";
+    font-size: 18px;
+}
+
+footer #company p {
+    margin-top: 30px;
+}
+
+footer #ul, li, h3 {
+    color: #555;
+    font-family: "GeistMono";
+}
+
+footer #ul {
+    align-self: center;
+}
+
+footer h3 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
